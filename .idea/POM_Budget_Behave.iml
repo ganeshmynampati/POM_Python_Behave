@@ -2,7 +2,12 @@
 <module type="PYTHON_MODULE" version="4">
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$" />
-    <orderEntry type="inheritedJdk" />
+    <orderEntry type="jdk" jdkName="Python 3.8 (python-behave-web-browser-automation-example)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="python-behave-web-browser-automation-example" />
+    <orderEntry type="module" module-name="POM_ProductPurchase" />
+    <orderEntry type="module" module-name="behaveAndrewProject" />
+    <orderEntry type="module" module-name="POM_DataDrivenTesting_Dictionary" />
+    <orderEntry type="module" module-name="POM_FormFilling" />
   </component>
 </module>

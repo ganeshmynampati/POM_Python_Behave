@@ -1,8 +1,11 @@
 from selenium.webdriver import ActionChains
 from selenium.webdriver.common.by import By
+from selenium.webdriver.support import expected_conditions
+from selenium.webdriver.support.wait import WebDriverWait
+
 from features.browser import Browser
 from features.pages.reservations_page import ReservationsPage
-from utilities.test_base import TestBase
+from features.utilities.test_base import TestBase
 
 class HomePageLocator(object):
     BudgetHeader = (By.XPATH, "//*[@class='navbar-brand']")
@@ -23,35 +26,34 @@ class HomePageLocator(object):
 
 class HomePage(Browser, TestBase):
 
-    def ValidateHomePageHeader(self, header):
-        TestBase.verifyPageTitle(header)
+    def ValidateHomePageHeader(self,header):
+        self.verifyPageTitle(header)
         assert self.driver.find_element(*HomePageLocator.BudgetHeader).is_displayed()
 
-
     def EnterPickUpLocation(self, keyword, location):
-        TestBase.setText(self.driver.find_element(*HomePageLocator.PickupLocation),keyword)
+        self.setText(self.driver.find_element(*HomePageLocator.PickupLocation),keyword)
         DropDownValues = self.driver.find_element(*HomePageLocator.PickupDropDownValues)
-        TestBase.waitForElementToBeClickable(DropDownValues)
+        self.waitForElementToBeVisible(DropDownValues)
         i=-1
         for option in self.driver.find_elements(*HomePageLocator.PickupDropDownValues):
             i=i+1
             if option.text in location:
                 actions = ActionChains(self.driver)
                 actions.move_to_element(self.driver.find_elements(*HomePageLocator.PickupDropDownValues)[i]).\
-                    click().perform(self.driver.find_elements(*HomePageLocator.OptionToSelect)[i])
+                    click(self.driver.find_elements(*HomePageLocator.OptionToSelect)[i]).perform()
                 break
-        TestBase.scrollIntoView(self.driver.find_element(*HomePageLocator.PickupDate))
+        self.scrollIntoView(self.driver.find_element(*HomePageLocator.PickupDate))
 
     def enterPickUpDate(self):
-        TestBase.clearElement(self.driver.find_element(*HomePageLocator.PickupDate))
-        TestBase.scrollIntoView(self.driver.find_element(*HomePageLocator.PickupDate))
-        TestBase.setText(self.driver.find_element(*HomePageLocator.PickupDate), TestBase.getFutureDateByWeek(1))
+        self.clearElement(self.driver.find_element(*HomePageLocator.PickupDate))
+        self.scrollIntoView(self.driver.find_element(*HomePageLocator.PickupDate))
+        self.setText(self.driver.find_element(*HomePageLocator.PickupDate), TestBase.getFutureDateByWeek(1))
 
     def enterDropDate(self):
-        TestBase.clearElement(self.driver.find_element(*HomePageLocator.DropDate))
-        TestBase.scrollIntoView(self.driver.find_element(*HomePageLocator.DropDate))
-        TestBase.setText(self.driver.find_element(*HomePageLocator.PickupDate), TestBase.getFutureDateByWeek(2))
+        self.clearElement(self.driver.find_element(*HomePageLocator.DropDate))
+        self.scrollIntoView(self.driver.find_element(*HomePageLocator.DropDate))
+        self.setText(self.driver.find_element(*HomePageLocator.PickupDate), TestBase.getFutureDateByWeek(2))
 
     def clickSelectMyCar(self):
-        TestBase.jseclick(self.driver.find_element(*HomePageLocator.SelectCar))
+        self.jseclick(self.driver.find_element(*HomePageLocator.SelectCar))
         return ReservationsPage()

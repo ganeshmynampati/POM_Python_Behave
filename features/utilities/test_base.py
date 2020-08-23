@@ -61,3 +61,9 @@ class TestBase:
 
     def scrollIntoView(self, ele):
         self.driver.execute_script("arguments[0].scrollIntoView();", ele)
+
+    @staticmethod
+    def reformatFutureWeekDt(num):
+        today = datetime.date.today()
+        next_week = today + datetime.timedelta(weeks=num)
+        return datetime.date.strftime(next_week, "%a, %b %d")

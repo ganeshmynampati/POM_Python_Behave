@@ -8,6 +8,7 @@ from features.pages.reservations_page import ReservationsPage
 from features.utilities.test_base import TestBase
 
 class HomePageLocator(object):
+
     BudgetHeader = (By.XPATH, "//*[@class='navbar-brand']")
     PickupLocation = (By.XPATH, "//*[@id='from']/preceding::input[@id='PicLoc_value']")
     PickupDropDownOptions = (By.XPATH, "//*[@id='from']/preceding::input[@id='PicLoc_value']/"
@@ -52,7 +53,7 @@ class HomePage(Browser, TestBase):
     def enterDropDate(self):
         self.clearElement(self.driver.find_element(*HomePageLocator.DropDate))
         self.scrollIntoView(self.driver.find_element(*HomePageLocator.DropDate))
-        self.setText(self.driver.find_element(*HomePageLocator.PickupDate), TestBase.getFutureDateByWeek(2))
+        self.setText(self.driver.find_element(*HomePageLocator.DropDate), TestBase.getFutureDateByWeek(2))
 
     def clickSelectMyCar(self):
         self.jseclick(self.driver.find_element(*HomePageLocator.SelectCar))

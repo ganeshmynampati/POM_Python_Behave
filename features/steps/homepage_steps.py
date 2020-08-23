@@ -20,11 +20,3 @@ def step_impl(context):
 @when('clicks Select My car option to navigate to reservations page')
 def step_impl(context):
     context.home_page.clickSelectMyCar()
-
-@when('chooses lowest price SUV with "4" doors and "5" seats and click pay now option')
-def step_impl(context):
-
-
-@then('user validates base rate, fees and taxes and estimated prepaid total succesfully')
-def step_impl(context):
-    pass

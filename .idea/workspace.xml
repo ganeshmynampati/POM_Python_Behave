@@ -20,7 +20,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="27561331-9704-4d39-91d6-be7a0c2af417" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/features/steps/reservationspage_steps.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../python-behave-web-browser-automation-example/.idea/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../python-behave-web-browser-automation-example/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../python-behave-web-browser-automation-example/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
@@ -29,14 +28,8 @@
       <change afterPath="$PROJECT_DIR$/../python-behave-web-browser-automation-example/.idea/python-behave-web-browser-automation-example.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../python-behave-web-browser-automation-example/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../python-behave-web-browser-automation-example/features/geckodriver.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/POM_Budget_Behave.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/POM_Budget_Behave.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/environment.py" beforeDir="false" afterPath="$PROJECT_DIR$/features/environment.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/pages/home_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/features/pages/home_page.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/features/pages/reservations_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/features/pages/reservations_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/steps/homepage_steps.py" beforeDir="false" afterPath="$PROJECT_DIR$/features/steps/homepage_steps.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/utilities/test_base.py" beforeDir="false" afterPath="$PROJECT_DIR$/features/utilities/test_base.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../python-behave-web-browser-automation-example/features/environment.py" beforeDir="false" afterPath="$PROJECT_DIR$/../python-behave-web-browser-automation-example/features/environment.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../python-behave-web-browser-automation-example/features/pages/home_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/../python-behave-web-browser-automation-example/features/pages/home_page.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../python-behave-web-browser-automation-example/features/steps/search_steps.py" beforeDir="false" afterPath="$PROJECT_DIR$/../python-behave-web-browser-automation-example/features/steps/search_steps.py" afterDir="false" />
@@ -80,7 +73,7 @@
       <recent name="C:\Users\Mynampati\GitHub Clone\POM_Budget_Behave\features\drivers" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.reformatNumbers">
+  <component name="RunManager" selected="Python.POMBehave">
     <configuration name="Calender" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonConcepts" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -212,22 +205,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="299" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1598190433998" />
-    <state width="1899" height="320" key="GridCell.Tab.0.bottom" timestamp="1598203588264">
+    <state width="1899" height="320" key="GridCell.Tab.0.bottom" timestamp="1598204534329">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="320" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1598203588264" />
-    <state width="1899" height="320" key="GridCell.Tab.0.center" timestamp="1598203588264">
+    <state width="1899" height="320" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1598204534329" />
+    <state width="1899" height="320" key="GridCell.Tab.0.center" timestamp="1598204534329">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="320" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1598203588264" />
-    <state width="1899" height="320" key="GridCell.Tab.0.left" timestamp="1598203588263">
+    <state width="1899" height="320" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1598204534329" />
+    <state width="1899" height="320" key="GridCell.Tab.0.left" timestamp="1598204534328">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="320" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1598203588263" />
-    <state width="1899" height="320" key="GridCell.Tab.0.right" timestamp="1598203588264">
+    <state width="1899" height="320" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1598204534328" />
+    <state width="1899" height="320" key="GridCell.Tab.0.right" timestamp="1598204534329">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="320" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1598203588264" />
+    <state width="1899" height="320" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1598204534329" />
     <state x="461" y="165" key="SettingsEditor" timestamp="1598170498642">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

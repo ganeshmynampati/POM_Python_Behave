@@ -131,3 +131,4 @@ class ReservationsPage(Browser, TestBase):
         ActualPrepaidEst=self.driver.find_element(*ReservationPageLocator.EstimatedTotal).text
         print(ActualPrepaidEst)
         assert ExpectedPrepaidEst==ActualPrepaidEst
+        print("SuccessFinal")

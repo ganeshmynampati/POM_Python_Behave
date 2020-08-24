@@ -21,5 +21,5 @@ SALIENT FEATURES OF PYTHON AUTOMATION FRAMEWORK using BEHAVE
 10. Applied Python concepts such as GLOBAL,
 11. DATA DRIVEN APPROACH - is achieved with the help of Scenario Outline concept of Cucumber. It facilitates testing scenario with multiple types of test data if required.
 12. Handling of synchronization by using EXPLICIT WAIT (WEBDRIVER WAIT) wherever required during element interactions.
-13.Ease of reusability is achieved in this framework by REUSABLE METHODS, they are created and maintained in a separate source folder and hence they can be called as many times as needed without the need to create a method which is used frequently.
+13. Ease of reusability is achieved in this framework by REUSABLE METHODS, they are created and maintained in a separate source folder and hence they can be called as many times as needed without the need to create a method which is used frequently.
 14. Framework is integrated with ALLURE REPORT for enhanced presentation of test summary and results.

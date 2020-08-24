@@ -20,46 +20,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="27561331-9704-4d39-91d6-be7a0c2af417" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/allure-report/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-report/data/behaviors.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-report/data/behaviors.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-report/data/categories.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-report/data/categories.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-report/data/packages.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-report/data/suites.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-report/data/suites.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-report/data/timeline.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-report/export/influxDbData.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-report/export/mail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-report/export/prometheusData.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-report/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-report/history/categories-trend.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-report/history/duration-trend.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-report/history/history-trend.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-report/history/history.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-report/history/retry-trend.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-report/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-report/plugins/behaviors/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-report/plugins/packages/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-report/plugins/screen-diff/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-report/plugins/screen-diff/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-report/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-report/widgets/behaviors.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-report/widgets/categories-trend.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-report/widgets/categories.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-report/widgets/duration-trend.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-report/widgets/duration.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-report/widgets/environment.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-report/widgets/executors.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-report/widgets/history-trend.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-report/widgets/launch.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-report/widgets/retry-trend.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-report/widgets/severity.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-report/widgets/status-chart.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-report/widgets/suites.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-report/widgets/summary.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/behave" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/46722202-757a-4878-aa36-13d5bc97b154-result.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../python-behave-web-browser-automation-example/.idea/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../python-behave-web-browser-automation-example/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../python-behave-web-browser-automation-example/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
@@ -68,9 +28,6 @@
       <change afterPath="$PROJECT_DIR$/../python-behave-web-browser-automation-example/.idea/python-behave-web-browser-automation-example.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../python-behave-web-browser-automation-example/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../python-behave-web-browser-automation-example/features/geckodriver.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/POM_Budget_Behave.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/POM_Budget_Behave.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/pages/reservations_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/features/pages/reservations_page.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../python-behave-web-browser-automation-example/features/environment.py" beforeDir="false" afterPath="$PROJECT_DIR$/../python-behave-web-browser-automation-example/features/environment.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../python-behave-web-browser-automation-example/features/pages/home_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/../python-behave-web-browser-automation-example/features/pages/home_page.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../python-behave-web-browser-automation-example/features/steps/search_steps.py" beforeDir="false" afterPath="$PROJECT_DIR$/../python-behave-web-browser-automation-example/features/steps/search_steps.py" afterDir="false" />

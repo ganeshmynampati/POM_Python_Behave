@@ -73,7 +73,7 @@ class ReservationsPage(Browser, TestBase):
         i=-1
         for info in self.driver.find_elements(*ReservationPageLocator.ViewVehicleInformation):
             i=i+1
-            self.jseclick(info)
+            self.jseclick(self.driver.find_elements(*ReservationPageLocator.ViewVehicleInformation)[i])
             if(
                     door in self.driver.find_elements(*ReservationPageLocator.FourDoorVehicle)[i].text and
                     seat in self.driver.find_elements(*ReservationPageLocator.FiveSeatsVehicle)[i].text
